@@ -27,3 +27,9 @@ Customization
 --------
 
 Play with `codedito.less` to modify the look and feel of codedito.
+
+```
+@monospacedFont: Menlo, Monaco, Consolas, "Courier New", monospace;
+@baseFontSize: 13px;
+@baseLineHeight: 13px;
+```
