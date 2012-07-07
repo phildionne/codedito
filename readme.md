@@ -22,3 +22,8 @@ Code snippet goes inside `<code></code>` tags
 	<pre><code>...</code></pre>
 </figure>
 ```
+
+Customization
+--------
+
+Play with `codedito.less` to modify the look and feel of codedito.
