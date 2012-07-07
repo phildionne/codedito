@@ -1,0 +1,44 @@
+/*!
+ * Codedito
+ * A simple css+html text-editor to embed code snippets on a webpage. Made with love by @phildionne
+ *
+ */
+figure.text-editor {
+  margin: 0;
+}
+figure.text-editor figcaption {
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica;
+  font-size: 13px;
+  color: #3C3C3C;
+  text-shadow: 0 1px 1px #e7e7e7;
+  line-height: 26px;
+  background: -webkit-linear-gradient(#e9e9e9, #b2b2b2 26px, #ededed, #ededed 26px);
+  background: -moz-linear-gradient(#e9e9e9, #b2b2b2 26px, #ededed, #ededed 26px);
+  box-shadow: inset 0px -2px 2px -2px rgba(0, 0, 0, 0.4);
+  border: 1px solid #CCC;
+  border-bottom: none;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -ms-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+figure.text-editor pre {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #333;
+  border-top: none;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+figure.text-editor pre > code {
+  padding: 10px;
+}

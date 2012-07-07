@@ -1,0 +1,57 @@
+/*!
+ * Codedito
+ * A simple css+html text-editor to embed code snippets on a webpage. Made with love by @phildionne
+ *
+ */
+
+
+ // Variables
+ // ------------------
+
+@monospacedFont: Menlo, Monaco, Consolas, "Courier New", monospace;
+@baseFontSize: 13px;
+@baseLineHeight: 13px;
+
+
+// Code editor
+// ------------------
+
+figure.text-editor {
+    margin: 0;
+    figcaption {
+        text-align: center;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica;
+        font-size: 13px;
+        color: #3C3C3C;
+        text-shadow: 0 1px 1px #e7e7e7;
+        line-height: @baseLineHeight*2;
+        background: -webkit-linear-gradient(rgba(233, 233, 233, 1.0), rgba(178, 178, 178, 1) @baseLineHeight*2, #EDEDED, #EDEDED @baseLineHeight*2);
+        background: -moz-linear-gradient( rgba(233, 233, 233, 1.0), rgba(178, 178, 178, 1) @baseLineHeight*2, #EDEDED, #EDEDED @baseLineHeight*2);
+        box-shadow: inset 0px -2px 2px -2px rgba(0,0,0,0.4);
+        border: 1px solid #CCC;
+        border-bottom: none;
+        -moz-border-radius-topleft: 5px;
+        -webkit-border-top-left-radius: 5px;
+        -ms-border-top-left-radius: 5px;
+        -o-border-top-left-radius: 5px;
+        border-top-left-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -ms-border-top-right-radius: 5px;
+        -o-border-top-right-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    pre {
+        margin: 0;
+        padding: 0;
+        border: 1px solid #333; // #333 for dark themes, #D0D0D0 for light themes
+        border-top: none;
+        font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+        word-break: break-all;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+    pre > code {
+        padding: 10px;
+    }
+}
